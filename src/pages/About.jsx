@@ -1,27 +1,31 @@
 import { Target, Award, Users, TrendingUp, Linkedin } from 'lucide-react';
+import chadhanImg from "../assets/chadhan.jpeg"
+import varshaImg from "../assets/varsha.jpeg"
+import yashImg from "../assets/yashu.jpeg"
+
 
 export default function About() {
   const team = [
     {
       name: 'Chandan Reddy R',
-      role: 'CEO',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+      role: 'Founder',
+      image: chadhanImg,
       description: '8+ years of experience in inside sales, business development, and market research. Expert in lead generation (BANT), RFP management, and client relationship building. Strong experience managing end-to-end sales cycles and global client engagement.',
-      linkedin: '#'
+      linkedin: 'https://www.linkedin.com/in/chandan-reddy-r-b93a79180/'
     },
     {
       name: 'Varsha S',
       role: 'HR & Talent Acquisition',
-      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: varshaImg,
       description: 'Specialist in hiring strategy, workforce planning, and building high-performance teams. Expert in talent acquisition and organizational development.',
-      linkedin: '#'
+      linkedin: 'https://www.linkedin.com/in/varsha-s-569027238/'
     },
     {
       name: 'Yashwanth K S',
       role: 'Software Engineer',
-      image: 'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: yashImg,
       description: 'Expert in AWS, Java, and modern web development. Focused on scalable technology solutions and cloud-native architecture.',
-      linkedin: '#'
+      linkedin: 'https://www.linkedin.com/in/yashwanth-k-s-020870291?utm_source=share_via&utm_content=profile&utm_medium=member_android'
     }
   ];
 

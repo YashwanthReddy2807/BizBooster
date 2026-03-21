@@ -14,7 +14,7 @@ export default function Footer() {
               Fueling Limitless Growth through expert IT, Financial, and Business Consulting services across global markets.
             </p>
             <div className="flex space-x-4 pt-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-teal-500 flex items-center justify-center transition-all duration-200 hover:scale-110">
+              <a href="https://www.linkedin.com/company/bizbosster/about/" className="w-10 h-10 rounded-full bg-white/10 hover:bg-teal-500 flex items-center justify-center transition-all duration-200 hover:scale-110">
                 <Linkedin className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-teal-500 flex items-center justify-center transition-all duration-200 hover:scale-110">
@@ -87,12 +87,12 @@ export default function Footer() {
               <li className="flex items-center space-x-3 text-sm text-gray-300">
                 <Mail className="w-5 h-5 text-teal-400" />
                 <a href="mailto:info@bizbooster.com" className="hover:text-teal-400 transition-colors">
-                  info@bizbooster.com
+                  info@bizbooster.in
                 </a>
               </li>
               <li className="flex items-center space-x-3 text-sm text-gray-300">
                 <Phone className="w-5 h-5 text-teal-400" />
-                <span>+91 1234567890</span>
+                <span>+91 9738030593</span>
               </li>
             </ul>
           </div>
